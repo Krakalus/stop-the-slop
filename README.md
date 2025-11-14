@@ -25,8 +25,9 @@ Stretch goal: telemetry backend
 # Team needs:
 
 - Generalists with software, UX, ML/eval, writing, or software distribution experience
-
 - Anyone with other relevant skills who thinks they can contribute
+
+
 [1] https://sites.google.com/view/sources-aislop 
 
 # For candidates:
