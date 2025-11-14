@@ -6,6 +6,11 @@
 }: {
   packages = with pkgs; [git cmake zlib pre-commit curl wget age sops];
   dotenv.enable = true;
+  languages.javascript = {
+    npm.enable = true;
+    enable = true;
+    directory = "./plugin";
+  };
   languages.python = {
     enable = true;
     package = pkgs.python312; # find the relevant version of python for uv to run on https://search.nixos.org
